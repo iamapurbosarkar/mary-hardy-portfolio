@@ -14,7 +14,7 @@ nav {
     margin: 0px 100px;
 }
 
-.navl-title {
+.nav-title {
     color: rgb(24, 24, 24);
     font-size: 45px;
     font-weight: 800;
@@ -47,17 +47,82 @@ nav a {
     font-weight: 700;
     padding: 18px 36px;
 }
-        /* header related styles */
 
-    header{
-        background-color: rgb(255, 248, 243);
-    }
-    .banner{
-        display: flex;
-        padding: 30px 30px 30px 100px;
-        align-items: center;
-    }
+/* header related styles */
 
-    .hardy-pic{
-        width: 350px;
-    }
+header {
+    background-color: rgb(255, 248, 243);
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    display: flex;
+    padding: 30px 30px 0px 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    /* width:500px; */
+    max-width: 500px;
+}
+
+.hardy-pic {
+    width: 580px;
+}
+
+.h3 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.h1 {
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+
+.banner-p {
+    max-width: 500px;
+    height: 60px;
+}
+
+.download-btn {
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+
+}
+
+.contact {
+    border: 1px solid rgb(253, 110, 10);
+    width: 80px;
+    height: 24px;
+    color: rgb(253, 110, 10);
+}
+
+/* About Section */
+
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+    margin-top: 130px;
+}
+
+.section-title {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sec-description {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    text-align: center;
+}
