@@ -126,3 +126,14 @@ header {
     font-size: 18px;
     text-align: center;
 }
+main{
+    max-width: 1140px;
+    margin: 0 150px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-container{
+    text-align: center;
+}
