@@ -202,3 +202,8 @@ main {
     text-align: center;
     margin-top: 50px;
 }
+footer{
+    display: flex;
+    background-color: rgb(255, 248, 243);
+    margin-top:80px;
+}
