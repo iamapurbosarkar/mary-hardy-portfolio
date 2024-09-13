@@ -161,7 +161,44 @@ main {
     text-align: left;
 }
 
-.resume-container{
+.resume-container {
     display: flex;
     gap: 30px;
+}
+
+.resume-h3 {
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: left;
+}
+
+.resume-items-title {
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+}
+
+.resume-institute {
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+}
+
+.resume-item-description {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
