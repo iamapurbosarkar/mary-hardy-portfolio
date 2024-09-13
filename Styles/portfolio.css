@@ -198,12 +198,59 @@ main {
     text-align: left;
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
-footer{
+
+footer {
     display: flex;
     background-color: rgb(255, 248, 243);
-    margin-top:80px;
+    margin-top: 80px;
+    gap: 100px;
+    width: 1400px;
+    height: 580px;
+}
+
+.footer-one{
+    width: 50%;
+}
+
+.fot-p {
+    color: rgb(71, 71, 71);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer-h3 {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    /* text-align: center; */
+}
+
+.contact>input {
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+}
+
+.input {
+    padding: 10px 160px 10px 30px;
+}
+
+.contact input,
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    border: 1px solid slategray;
+}
+
+.fot-btn {
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    padding: 10px 30px;
 }
